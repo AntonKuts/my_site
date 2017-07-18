@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class='container')
+      div(class='header')
+        ul(class='ulForMeny')
+          li(class='liForMeny')
+            a(href='/') Main
+          li(class='liForMeny')
+            a(href='/Values') Values
+          li(class='liForMeny')
+            a(href='/IT') IT
+          li(class='liForMeny')
+            a(href='/Projects') Projects
+          li(class='liForMeny')
+            a(href='/Letter') Letter of recommendation
+          li(class='liForMeny')
+            a(href='/CV') CV
+          li(class='liForMeny')
+            a(href='/Contacts') Contacts
+          li(class='liForMeny')
+            a(class='time')
+      div(class='boxForKuts')
+        a(class='kuts', href='/') ANTON KUTS  
+      
+      block content
+    
+      include box
+
+      div(class='footer')
+        ul(class='ulForMeny')
+          li(class='liForMeny')
+            a(href='/') Main
+          li(class='liForMeny')
+            a(href='/Values') Values
+          li(class='liForMeny')
+            a(href='/IT') IT
+          li(class='liForMeny')
+            a(href='/Projects') Projects
+          li(class='liForMeny')
+            a(href='/Letter') Letter of recommendation
+          li(class='liForMeny')
+            a(href='/CV') CV
+          li(class='liForMeny')
+            a(href='/Contacts') Contacts
+          li(class='liForMeny')
+            a(class='time')
+    <script src="../javascripts/js.js"></script>
+  
+    
